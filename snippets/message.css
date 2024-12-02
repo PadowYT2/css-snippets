@@ -1,0 +1,3 @@
+[class^='footer_']:has([class^='channelTextArea_']) {
+    display: none;
+}
