@@ -2,6 +2,6 @@
     display: none;
 }
 
-[class^='section_']:has(.note_d53fbd) {
+[class^='section_']:has([class^='note_']) {
     display: none;
 }
