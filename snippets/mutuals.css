@@ -1,0 +1,15 @@
+/**
+ * credits:
+ *   https://discord.com/channels/1015060230222131221/1215680021679702107/1216865026195853403
+ *   https://discord.com/channels/1015060230222131221/1215680021679702107/1229841555905450054
+ *  @ .gg/vencord
+ */
+
+[data-tab-id='MUTUAL_FRIENDS'] {
+    order: 1;
+}
+
+[class^='mutuals_'] {
+    flex-direction: row-reverse;
+    margin-right: auto;
+}

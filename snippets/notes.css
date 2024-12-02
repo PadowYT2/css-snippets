@@ -1,0 +1,7 @@
+[aria-label='Add Note'] {
+    display: none;
+}
+
+[class^='section_']:has(.note_d53fbd) {
+    display: none;
+}

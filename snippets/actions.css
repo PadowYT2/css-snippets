@@ -1,0 +1,25 @@
+/**
+ * credit: https://discord.com/channels/1015060230222131221/1289013807603126302/1290923273994895370 @ .gg/vencord
+ */
+
+[class*='popoverReactionHoverBar_'] {
+    box-shadow: var(--elevation-stroke);
+    border: none !important;
+    border-radius: 4px;
+    background-color: var(--background-primary);
+    padding: 0;
+    height: 32px;
+}
+
+[class*='popoverReactionHoverBar_'] [class^='hoverBarButton_'] {
+    padding: 4px;
+}
+
+[class*='popoverReactionHoverBar_'] [class^='hoverBarButton_']:hover [class*='icon_'] {
+    transform: none;
+}
+
+[class*='popoverReactionHoverBar_'] [class^='hoverBarButton_']:has(> div > .emoji),
+[class*='popoverReactionHoverBar_'] [class^='hoverBarButton_'] + [class^='separator_'] {
+    display: none;
+}

@@ -1,0 +1,26 @@
+/**
+ * credit: https://dablulite.github.io/css-snippets/QuickSwitchV2
+ */
+
+[class^='quickswitcher_'] {
+    padding: 0;
+}
+
+[class^='quickswitcher_'] [class^='scroller_'] {
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    padding: 8px !important;
+    scrollbar-width: none;
+}
+
+[class^='quickswitcher_'] [class^='input_'] {
+    height: 48px;
+}
+
+[class^='quickswitcher_'] [class^='input_'] {
+    border-radius: 8px 8px 0 0;
+}
+
+[class^='quickswitcher_'] [class^='protip_'] {
+    display: none;
+}

@@ -1,0 +1,14 @@
+/**
+ * credit: https://discord.com/channels/1015060230222131221/1230238398833229875/1230986599165198356 @ .gg/vencord
+ */
+
+[class*='botTagRegular']:not([class*='botTagOP'], [class*='botTagRemix']) > span:before {
+    content: 'Bot';
+    font-size: 0.625rem;
+    line-height: 1.3;
+}
+
+[class*='botTagRegular']:not([class*='botTagOP'], [class*='botTagRemix']) > span {
+    font-size: 0 !important;
+    line-height: 0 !important;
+}

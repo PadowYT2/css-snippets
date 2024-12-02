@@ -1,0 +1,11 @@
+/**
+ * credit: https://discord.com/channels/1015060230222131221/1290839412560760966/1310770238542970931 @ .gg/vencord
+ */
+
+[class*='unreadMentionsFixedFooter_'] {
+    bottom: 0px !important;
+}
+
+[data-list-id='guildsnav'] [class^='footer_']:has([class*='fixedDiscoveryIcon_']) {
+    display: none;
+}

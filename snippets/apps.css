@@ -1,0 +1,14 @@
+/**
+ * credits:
+ *   https://discord.com/channels/1015060230222131221/1028106818368589824/1270268182078165034
+ *   https://discord.com/channels/1015060230222131221/1270268182078165034/1278129788019802193
+ *  @ .gg/vencord
+ */
+
+[class*='channelAppLauncher_'] {
+    display: none;
+}
+
+:root {
+    --custom-channel-textarea-app-launcher-button-gap: -44px;
+}
