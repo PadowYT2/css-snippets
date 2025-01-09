@@ -6,6 +6,7 @@
     bottom: 0px !important;
 }
 
-[data-list-id='guildsnav'] [class^='footer_']:has([class*='fixedDiscoveryIcon_']) {
+[class^=footer_]:has([class*=fixedDiscoveryIcon_]),
+[class^=footer_]:has([class*=discoveryIcon_]) {
     display: none;
 }
